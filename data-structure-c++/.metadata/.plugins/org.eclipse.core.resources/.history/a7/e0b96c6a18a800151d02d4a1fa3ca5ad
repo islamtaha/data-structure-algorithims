@@ -1,0 +1,19 @@
+
+#include "ArrayList.h"
+#include <iostream>
+int main(int argc, char ** argv){
+	ArrayList<int> xs;
+	xs[0] = 0;
+	xs[1] = 1;
+	xs[2] = 2;
+	xs[3] = 3;
+	xs[4] = 4;
+
+	std::cout << xs[4];
+
+	int r = xs.remove(3);
+	std::cout << r;
+	return 0;
+}
+
+

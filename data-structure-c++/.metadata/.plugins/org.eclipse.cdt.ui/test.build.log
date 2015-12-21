@@ -1,0 +1,14 @@
+20:59:50 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../src/ArrayList.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayList.d" -MT"src/ArrayList.d" -o "src/ArrayList.o" "../src/ArrayList.cpp"
+../src/ArrayList.cpp:7:31: fatal error: include/ArrayList.h: No such file or directory
+ #include "include/ArrayList.h"
+                               ^
+compilation terminated.
+src/subdir.mk:18: recipe for target 'src/ArrayList.o' failed
+make: *** [src/ArrayList.o] Error 1
+
+20:59:50 Build Finished (took 108ms)
+

@@ -1,0 +1,14 @@
+
+#include "ArrayList.h"
+
+int main(int argc, char ** argv){
+	ArrayList<int> xs;
+	xs[0] = 0;
+	xs[2] = 0;
+	xs[3] = 0;
+	xs[4] = 0;
+
+	return 0;
+}
+
+

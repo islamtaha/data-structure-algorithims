@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1450727484 source:/home/islam/data-structure-c++/data-structure-algorithims/src/ArrayList.cpp
+	"ArrayList.h"
+	<iostream>
+
+1450727808 /home/islam/data-structure-c++/data-structure-algorithims/include/ArrayList.h
+
